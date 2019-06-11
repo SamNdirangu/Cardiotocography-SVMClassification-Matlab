@@ -1,5 +1,5 @@
 # Cardiotocography SVM analyzer and diagnoser using MATLAB
-A Multi-Class SVM classifier implemented using MATLAB for the Cardiotocography dataset featuring 4 different classes. So far the best accruacy achieved is 99.5%. The dataset is not imbalanced.
+A Multi-Class SVM classifier implemented using MATLAB for the Cardiotocography dataset featuring 4 different classes. So far the best accruacy achieved is about 92%. The dataset is not imbalanced.
 
 The code prepares and processes the dataset from a csv file, it performs feature analysis and ranking of features then optimizes the SVM model using a bayesian optimizer. The model is evaluated using K-fold cross-validation, theres is no hold out validation performed. A confusion matrix is also generated to produce the recall,precision and F1 score of the model.
 
